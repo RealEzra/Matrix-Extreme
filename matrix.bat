@@ -1,14 +1,15 @@
 @echo off
-title Main Menu
-
 :home
+title Main Menu
+color 8
 cls
 echo Select an option:
 echo.
 echo 1) Start (color will be green) 
 echo 2) Choose Color
 echo 3) View My GitHub
-echo 4) Exit
+echo 4) Run Updater
+echo 5) Exit
 echo.
 goto :o
 
@@ -17,12 +18,18 @@ set /p c=Type option:
 if /I "%c%" EQU "1" goto :default
 if /I "%c%" EQU "2" goto :color
 if /I "%c%" EQU "3" goto :github
-if /I "%c%" EQU "4" exit
+if /I "%c%" EQU "4" goto :update
+if /I "%c%" EQU "5" exit
 echo "%c%" is invalid please try again!
 goto :o
 
 :github
 start www.github.com/LegitEzra
+goto :home
+
+:update
+cls
+call update.bat
 goto :home
 
 :default
