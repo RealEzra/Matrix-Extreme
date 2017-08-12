@@ -1,2 +1,8 @@
-# Matrix-Batchfile
-The best Matrix file! With many features and options!
+# How To Use
+Run the file then follow steps!
+# Bugs
+Report any bugs in the issues section!
+# Feature Request
+Request features in the issues section for ex. Hey, Ezra please add a username and password login for the script!
+# Pull Request
+Feel free to contribute!
