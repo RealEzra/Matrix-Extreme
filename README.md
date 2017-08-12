@@ -1,5 +1,5 @@
 # How To Use
-Run the file then follow steps!
+Run matrix.bat then follow steps!
 # Bugs
 Report any bugs in the issues section!
 # Feature Request
