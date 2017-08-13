@@ -5,7 +5,7 @@ title Updater
 color a
 echo Hello make sure you have the lasted version of git installed!
 echo.
-echo 1) Run Updater
+echo 1) Download Latest
 echo 2) Go to git website
 echo 3) Run Matrix
 echo.
