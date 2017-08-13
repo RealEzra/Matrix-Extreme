@@ -3,6 +3,9 @@
 title Main Menu
 color 8
 cls
+echo Welcome %username% the current time is
+time /t
+echo.
 echo Select an option:
 echo.
 echo 1) Start (color will be green) 
